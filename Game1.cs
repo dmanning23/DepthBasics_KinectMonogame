@@ -183,7 +183,7 @@ namespace DepthBasics_KinectMonogame
 						byte intensity = 0;
 						if (depth >= minDepth && depth <= maxDepth)
 						{
-							intensity = (byte)((depth * byte.MaxValue) / depthDelta);
+							intensity = (byte)(byte.MaxValue - ((depth * byte.MaxValue) / depthDelta));
 						}
 
 						//set the color
