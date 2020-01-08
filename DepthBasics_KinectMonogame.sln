@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthBasics_KinectMonogame", "DepthBasics_KinectMonogame.csproj", "{91F47EA3-8723-41EE-B3FF-16442776B9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthBasics_KinectMonoGame2", "DepthBasics_KinectMonoGame2\DepthBasics_KinectMonoGame2.csproj", "{9AA0D21B-7EC1-4C3C-82DD-A856A3F3E4EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{91F47EA3-8723-41EE-B3FF-16442776B9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F47EA3-8723-41EE-B3FF-16442776B9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F47EA3-8723-41EE-B3FF-16442776B9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA0D21B-7EC1-4C3C-82DD-A856A3F3E4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA0D21B-7EC1-4C3C-82DD-A856A3F3E4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA0D21B-7EC1-4C3C-82DD-A856A3F3E4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA0D21B-7EC1-4C3C-82DD-A856A3F3E4EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D20E0B96-E2F3-453A-B51B-14C644DB8813}
 	EndGlobalSection
 EndGlobal
