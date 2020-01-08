@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>DepthBasics_KinectMonogame.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
