@@ -39,9 +39,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SDL.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
